@@ -7,7 +7,7 @@
 在柱状图中运用了最基本的柱状图格式并改变了标题的样式；在词云图中将词云设置为三角形，改变了词语和标题的字体并自己设置了布局和大小，在饼状图中采用了空心的南丁格尔玫瑰图，加入了工具箱配置项，并且将图例改为了棱形。
 三个图均将标题放在了正中间，并采用了相应的themetype
 
-[作业一链接]（https://github.com/tguoguo/tguoguo.github.io/柱状图.html）
+[作业一链接]（https://github.com/tguoguo/tguoguo.github.io/blob/main/地理连线图.html）
           （https://github.com/tguoguo/tguoguo.github.io/词云图.html）
           （https://github.com/tguoguo/tguoguo.github.io/饼状图.html）
 
