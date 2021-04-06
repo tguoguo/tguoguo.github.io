@@ -1,0 +1,3486 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/essos.js"></script>
+
+</head>
+<body>
+    <div id="8d2911ceed21482a88328238cf8febc9" class="chart-container" style="width:1450px; height:800px;"></div>
+    <script>
+        var chart_8d2911ceed21482a88328238cf8febc9 = echarts.init(
+            document.getElementById('8d2911ceed21482a88328238cf8febc9'), 'essos', {renderer: 'canvas'});
+        var option_8d2911ceed21482a88328238cf8febc9 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "\u6700\u9ad8\u6c14\u6e29",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "china",
+                "data": [
+                    {
+                        "name": "\u5317\u4eac",
+                        "value": 4
+                    },
+                    {
+                        "name": "\u5929\u6d25",
+                        "value": 4
+                    },
+                    {
+                        "name": "\u91cd\u5e86",
+                        "value": 12
+                    },
+                    {
+                        "name": "\u4e0a\u6d77",
+                        "value": 11
+                    },
+                    {
+                        "name": "\u6d59\u6c5f",
+                        "value": 11
+                    },
+                    {
+                        "name": "\u6c5f\u82cf",
+                        "value": 10
+                    },
+                    {
+                        "name": "\u798f\u5efa",
+                        "value": 17
+                    },
+                    {
+                        "name": "\u56db\u5ddd",
+                        "value": 12
+                    },
+                    {
+                        "name": "\u9999\u6e2f",
+                        "value": 22
+                    },
+                    {
+                        "name": "\u5e7f\u4e1c",
+                        "value": 20
+                    },
+                    {
+                        "name": "\u5c71\u4e1c",
+                        "value": 5
+                    },
+                    {
+                        "name": "\u6e56\u5357",
+                        "value": 12
+                    },
+                    {
+                        "name": "\u6e56\u5317",
+                        "value": 11
+                    },
+                    {
+                        "name": "\u6cb3\u5357",
+                        "value": 8
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": true,
+                "emphasis": {}
+            },
+            {
+                "type": "map",
+                "name": "\u6700\u4f4e\u6c14\u6e29",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "china",
+                "data": [
+                    {
+                        "name": "\u5317\u4eac",
+                        "value": -5
+                    },
+                    {
+                        "name": "\u5929\u6d25",
+                        "value": -3
+                    },
+                    {
+                        "name": "\u91cd\u5e86",
+                        "value": 7
+                    },
+                    {
+                        "name": "\u4e0a\u6d77",
+                        "value": 5
+                    },
+                    {
+                        "name": "\u6d59\u6c5f",
+                        "value": 4
+                    },
+                    {
+                        "name": "\u6c5f\u82cf",
+                        "value": 2
+                    },
+                    {
+                        "name": "\u798f\u5efa",
+                        "value": 11
+                    },
+                    {
+                        "name": "\u56db\u5ddd",
+                        "value": 4
+                    },
+                    {
+                        "name": "\u9999\u6e2f",
+                        "value": 17
+                    },
+                    {
+                        "name": "\u5e7f\u4e1c",
+                        "value": 12
+                    },
+                    {
+                        "name": "\u5c71\u4e1c",
+                        "value": -4
+                    },
+                    {
+                        "name": "\u6e56\u5357",
+                        "value": 5
+                    },
+                    {
+                        "name": "\u6e56\u5317",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u6cb3\u5357",
+                        "value": -1
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": true,
+                "emphasis": {}
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "1\u6708",
+                "2\u6708",
+                "3\u6708",
+                "4\u6708",
+                "5\u6708",
+                "6\u6708",
+                "7\u6708",
+                "8\u6708",
+                "9\u6708",
+                "10\u6708",
+                "11\u6708",
+                "12\u6708"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "piecewise",
+            "min": 0,
+            "max": 40,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 14,
+            "borderWidth": 0,
+            "pieces": [
+                {
+                    "max": -5
+                },
+                {
+                    "min": -5,
+                    "max": 0
+                },
+                {
+                    "min": 0,
+                    "max": 5
+                },
+                {
+                    "min": 5,
+                    "max": 10
+                },
+                {
+                    "min": 10,
+                    "max": 15
+                },
+                {
+                    "min": 15,
+                    "max": 20
+                },
+                {
+                    "min": 20,
+                    "max": 25
+                },
+                {
+                    "min": 25,
+                    "max": 30
+                },
+                {
+                    "min": 30,
+                    "max": 35
+                },
+                {
+                    "min": 35,
+                    "max": 40
+                },
+                {
+                    "min": 40,
+                    "max": 45
+                }
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 6
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": -6
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": -5
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": -2
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": -3
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 9
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": -4
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": -3
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 17
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 6
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 24
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 12
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 31
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 30
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 18
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 31
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 31
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 33
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 23
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 36
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 31
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 34
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 25
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 34
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 33
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 24
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 28
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 19
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 22
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 12
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 25
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 14
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": -1
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 5
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u6700\u9ad8\u6c14\u6e29",
+                        "\u6700\u4f4e\u6c14\u6e29"
+                    ],
+                    "selected": {
+                        "\u6700\u9ad8\u6c14\u6e29": true,
+                        "\u6700\u4f4e\u6c14\u6e29": true
+                    },
+                    "show": true,
+                    "left": "5%",
+                    "top": "10%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u6700\u9ad8\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 8
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                },
+                {
+                    "type": "map",
+                    "name": "\u6700\u4f4e\u6c14\u6e29",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": -5
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": -3
+                        },
+                        {
+                            "name": "\u91cd\u5e86",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u6d59\u6c5f",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6c5f\u82cf",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u9999\u6e2f",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u5e7f\u4e1c",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": -4
+                        },
+                        {
+                            "name": "\u6e56\u5357",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u6e56\u5317",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": -1
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "\u5168\u56fd\u90e8\u5206\u5730\u533a\u6bcf\u6708\u5e73\u5747\u6700\u9ad8\u6e29\u548c\u6700\u4f4e\u6e29\u7edf\u8ba1",
+                    "subtext": "\u6570\u636e\u66f4\u65b0\u4e8e2021\u5e744\u67084\u65e5",
+                    "left": "center",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 40,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": -5
+                    },
+                    {
+                        "min": -5,
+                        "max": 0
+                    },
+                    {
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "min": 10,
+                        "max": 15
+                    },
+                    {
+                        "min": 15,
+                        "max": 20
+                    },
+                    {
+                        "min": 20,
+                        "max": 25
+                    },
+                    {
+                        "min": 25,
+                        "max": 30
+                    },
+                    {
+                        "min": 30,
+                        "max": 35
+                    },
+                    {
+                        "min": 35,
+                        "max": 40
+                    },
+                    {
+                        "min": 40,
+                        "max": 45
+                    }
+                ]
+            }
+        }
+    ]
+};
+        chart_8d2911ceed21482a88328238cf8febc9.setOption(option_8d2911ceed21482a88328238cf8febc9);
+    </script>
+</body>
+</html>
