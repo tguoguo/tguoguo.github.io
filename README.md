@@ -8,8 +8,8 @@
 三个图均将标题放在了正中间，并采用了相应的themetype
 
 [作业一链接]（https://github.com/tguoguo/tguoguo.github.io/柱状图.html）
-[作业一链接]（https://github.com/tguoguo/tguoguo.github.io/词云图.html）
-[作业一链接]（https://github.com/tguoguo/tguoguo.github.io/饼状图.html）
+          （https://github.com/tguoguo/tguoguo.github.io/词云图.html）
+          （https://github.com/tguoguo/tguoguo.github.io/饼状图.html）
 
 ##作业二：地理连线图
 故事背景：一群复生会的教徒们最近开始活跃起来，因为30天以后将会是复生会的复生日，为了迎接真神的降临，他们必须在地图上燃起4组代表复生的火把，每一组的4个火把放置的地点必须构成交叉的十字，真神就会降临在这4组火把中心的位置。
