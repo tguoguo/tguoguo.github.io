@@ -42,7 +42,10 @@
 ## 作业一：人物关系图
 选择了小说《德伯家的苔丝》进行人物关系图的分析，考虑到小说中的段落划分并非中国古典小说一大段为一段对话，而是一个人物的一句话就是一个段落，故采用了分章节进行人物共现判断，判断标志为换行+下一行的第一个字符为数字。同时检查了小说内容，除了章节的开头为数字之外，无其他段落开头为数字。因为章节较段落更加长，导致共现次数过大，所以在用共现次数绘制graph时设置了限制值为1000。在统计人物以及出现次数时同样根据内容设置了相应的限制值。在绘制graph时，同时采用了circular和force两种方式，对比起来force经过repusion等值的调节仍然会导致点的重叠，看起来更乱，circular则不会，但是人物亲疏关系表现得不如force，两者相互补充。在circular对人物进行了分类，使得对比更加鲜明，方便分类查看，考虑到force图已经够乱了，故没有采用分类。
 
-[作业一链接circular]( https://tguoguo.github.io/《德伯家的苔丝》circular.html ）
+[作业一链接circular]( https://tguoguo.github.io/《德伯家的苔丝》circular.html)
+
+
+
 [作业一链接force](https://tguoguo.github.io/《德伯家的苔丝》force.html )
 
 ## 作业二：搜索引擎
@@ -72,4 +75,4 @@
 
 
 最终通过设置div分区的位置达到整体的布局。
-[作业三链接]( https://tguoguo.github.io/四大期刊.html ）
+[作业三链接](https://tguoguo.github.io/四大期刊.html)
