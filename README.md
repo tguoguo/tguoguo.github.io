@@ -53,7 +53,7 @@
 
 [作业二链接]( https://tguoguo.github.io/searching.html )
 
-##作业三：四大医学期刊
+## 作业三：四大医学期刊
 网页标题为四大医学期刊，主要介绍了医学领域的四大顶级期刊:the lancet, BMJ, JAMA, NEJM。主要有标题，主页面，更多期刊板块和页面导航卡片。
 
 
